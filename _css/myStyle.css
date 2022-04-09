@@ -1,0 +1,48 @@
+body {
+    background-color: #CAE4E6;
+    color: #82DBE0;
+    font-size: 1.1em;
+}
+h1 {
+    color: #556061;
+}
+#intro {
+    font-size: 1.3em;
+}
+.colorful {
+    color: orange;
+}
+
+.div-1 {
+    background-color: white;
+    height: 100px;
+    width: 200px;
+}
+
+.div-2 {
+    background-color: beige;
+    height: 100px;
+    width: 200px;
+}
+.navigation {
+    background-color: #65AAAD;
+}
+@media screen and (max-width:18000px){
+    .div-1 {
+      background-color: #CAE4E6;
+    }
+}
+ 
+.button {
+    background-color: #385F61; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    box-shadow: 5px 10px;
+    cursor: pointer;
+}
